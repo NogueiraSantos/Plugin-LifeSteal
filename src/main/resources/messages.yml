@@ -1,0 +1,22 @@
+# ==========================================
+#          DonutLifeSteal Messages
+# ==========================================
+
+HEART-CLAIMED: "&fAdicionado &#FF0000+1 Coração"
+HEART-RECEIVED: "&fVocê recebeu &#FF0000+{amount} Coração"
+HEART-REMOVED: "&fRemovido &#FF0000+{amount} Coração"
+ALT-IP-BLOCKED: "&cEste jogador está bloqueado por conta do IP"
+
+MAX-HEARTS-REACHED: "&cVocê já atingiu o limite máximo de corações!"
+MIN-HEARTS-REACHED: "&cEste jogador já está no limite mínimo base de corações!"
+INVALID-HEART: "&cEste coração é inválido ou já foi utilizado!"
+HEART-GIVEN-SENDER: "&aVocê adicionou &#FF0000+{amount} Coração(ões) &apara &#FFF000{player}&a."
+HEART-REMOVED-SENDER: "&cVocê removeu &#FF0000-{amount} Coração(ões) &cde &#FFF000{player}&c."
+HEART-SET-SENDER: "&eVocê definiu a vida de &#FFF000{player} &epara &#FF0000{amount} Coração(ões)&e."
+HEART-ITEM-GIVEN: "&aVocê entregou &#FF0000{amount} item(ns) de coração &apara &#FFF000{player}&a."
+
+PLAYER-NOT-FOUND: "&cJogador não encontrado ou offline."
+INVALID-NUMBER: "&cA quantidade informada é inválida."
+NO-PERMISSION: "&cVocê não possui permissão para executar este comando."
+USAGE: "&cUso correto: /lifesteal <give|remove|set|giveitem|reload> <jogador> [quantidade]"
+RELOAD-SUCCESS: "&aConfigurações e banco de dados do DonutLifeSteal recarregados com sucesso!"

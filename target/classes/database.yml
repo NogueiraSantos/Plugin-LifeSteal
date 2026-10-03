@@ -1,0 +1,27 @@
+DATABASE: SQLITE
+
+MONGODB:
+  URI: ""
+  ADDRESS: 127.0.0.1
+  PORT: 27017
+  DATABASE: DonutLifeSteal
+  AUTHENTICATION:
+    ENABLED: false
+    USERNAME: admin
+    PASSWORD: pass
+    DATABASE: admin
+
+MYSQL:
+  HOST: br.asc.01.db.streethosting.com.br
+  PORT: 3306
+  DATABASE: s840_smp
+  USER: u840_SLBzB0KRtZ
+  PASSWORD: cf4q7^k!EKWkG3q9SW3eaZNf
+  PARAMS: useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC
+  POOL:
+    MAX-POOL-SIZE: 10
+    MIN-IDLE: 2
+    CONNECTION-TIMEOUT: 30000
+
+SQLITE:
+  FILE: plugins/DonutLifeSteal/donutlifesteal.db

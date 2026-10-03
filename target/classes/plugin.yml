@@ -1,0 +1,21 @@
+name: DonutLifeSteal
+version: '1.0'
+main: me.theus.donutLifeSteal.DonutLifeSteal
+author: Nogueira
+api-version: '1.21'
+load: POSTWORLD
+softdepend: [PlaceholderAPI]
+
+commands:
+  lifesteal:
+    description: Comandos do DonutLifeSteal
+    aliases: [ls, donutlifesteal, vida, coracao, coracoes]
+    permission: donutlifesteal.use
+
+permissions:
+  donutlifesteal.admin:
+    description: Permissão administrativa para dar/remover corações e recarregar
+    default: op
+  donutlifesteal.use:
+    description: Permissão básica de uso
+    default: true

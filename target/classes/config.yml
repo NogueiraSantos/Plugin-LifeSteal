@@ -1,0 +1,42 @@
+# ==========================================
+#          DonutLifeSteal Configuration
+# ==========================================
+
+# Quantidade base de corações que o jogador terá ao entrar no servidor
+HEART-DEFAULT:
+  HEART-PER-PLAYER: 4
+
+# Limite máximo de corações que um jogador pode acumular
+MAX-HEARTS: 20
+
+# Limite mínimo base de corações (o jogador não perde abaixo desse limite ao morrer)
+MIN-HEARTS: 4
+
+# Configurações do item de coração dropado
+HEART-ITEM:
+  DISPLAY-NAME: '&#FF0000Coração Partido'
+  MATERIAL: RED_DYE
+  # Defina o CustomModelData para aplicar textura via Resource Pack (ex: 10001)
+  CUSTOM-MODEL-DATA: 0
+  # Opcional (Paper 1.21.4+): chave do item_model (ex: 'minecraft:custom_heart')
+  ITEM-MODEL: ''
+  LORE:
+    - "&fClique-direito para reinvidicar &#FF0000+1 Coração"
+    - "&fAumente o máximo da sua vida"
+
+# Sistema Anti-Alt: previne farm de corações entre contas com o mesmo IP
+ANTI-ALT:
+  ENABLED: true
+  CHECK-SAME-IP: true
+
+# Sistema Anti-Dupe e proteção de itens
+ANTI-DUPE:
+  ENABLED: true
+  INVALIDATE-DUPLICATES: true # Se detectar mais de um coração com o mesmo ID, invalida todos
+  BLOCK-ANVIL-RENAME: true # Bloqueia renomear Red Dye para se passar por coração na bigorna
+
+# Mecânica de drop ao matar jogador
+DROP-ON-PVP-KILL: true
+# Se false: só dropa coração se a vítima tiver mais de 4 corações e de fato perder um.
+# Se true: sempre dropa um coração para o assassino mesmo se a vítima já estiver nos 4 corações base.
+DROP-HEART-WHEN-VICTIM-AT-BASE: false
